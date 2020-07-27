@@ -1,0 +1,24 @@
+/*
+MAIN COLORS
+*/
+
+$base-bg: #fff; // BODY background
+
+/* LOAD PAGE */
+$body-load-bg: $base-bg;
+$preloader-width: 2rem;
+$preloader-default-color: #ccc; // Preloader's border color
+$preloader-active-color: coral; // Preloader's border color
+$preloader-border-width: 2px; // Preloader's border-width
+
+/* MAIN COLORS */
+$primary-color: $black;
+$secondary-color: #cc0000;
+$gray:#696969;
+$orange:#ff8900;
+$yellow:#ffc925;
+
+$gradient-orange:linear-gradient(90deg, rgba(255,139,0,1) 0%, rgba(255,137,0,1) 100%);
+$gradient-hover: linear-gradient(90deg, rgba(211,111,0,1) 0%, rgba(229,145,0,1) 100%);
+
+

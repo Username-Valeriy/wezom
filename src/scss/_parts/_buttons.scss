@@ -1,0 +1,26 @@
+/*
+BUTTONS STYLES
+ */
+
+.button {
+  @extend %buttonsGeometry;
+  .text-label {
+    display: block;
+    transition: $slow-transition;
+  }
+  .text-hover {
+    display: block;
+    transform: translateY($button-height) scaleY(0);
+    transition: $slow-transition;
+  }
+  &:hover {
+    color: $black;
+    border-color: $black;
+    .text-label {
+      transform: translateY(-$button-height) scaleY(0);
+    }
+    .text-hover {
+      transform: translateY(-$button-height) scaleY(1);
+    }
+  }
+}
