@@ -8,10 +8,10 @@
 main {
 
   section{
-      &.сard-product{
+      &.card-product{
         margin-top: 35px;
         padding-bottom: 61px;
-        .сard-product--content {
+        .card-product--content {
 
           .title-pages {
             display: flex;
@@ -93,7 +93,7 @@ main {
                 transform: none !important;
               }
             }
-            .сard-product--content--el {
+            .card-product--content--el {
               padding: 20px 20px 15px;
               border-right: 1px solid #dbdbdb;
               display: flex;
@@ -420,22 +420,22 @@ main {
 
             }
 
-            .сard-product--content--el.season{
-                .сard-product--content--el-imgBx__info{
+            .card-product--content--el.season{
+                .card-product--content--el-imgBx__info{
                   .season{
                     display: flex;
                   }
                 }
             }
-            .сard-product--content--el.type{
-                .сard-product--content--el-imgBx__info{
+            .card-product--content--el.type{
+                .card-product--content--el-imgBx__info{
                   .type{
                     display: flex;
                   }
                 }
             }
-            .сard-product--content--el.new{
-                .сard-product--content--el-imgBx__info{
+            .card-product--content--el.new{
+                .card-product--content--el-imgBx__info{
                   .new{
                     display: flex;
                   }
