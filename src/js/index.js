@@ -74,16 +74,15 @@ jQuery(document).ready(function ($) {
 
 
             let centerBoxHeader = $(".center-box--header");
-            $('.сard-product--content--el-add .comparison').on('click', function (){
+            $('.card-product--content--el-add .comparison').on('click', function (){
                 $(this).addClass('is-active')
                 let quantityCom =  centerBoxHeader.find(".comparison").attr("data-quantity"),
                     parseQnCom  = parseInt(quantityCom);
-
                 $('.comparison').attr('data-quantity', parseQnCom + 1);
 
             })
 
-            $('.сard-product--content--el-add .favorites').on('click', function (){
+            $('.card-product--content--el-add .favorites').on('click', function (){
                 $(this).addClass('is-active')
                 let quantityFav = centerBoxHeader.find(".favorites").attr("data-quantity"),
                     parseQnFav  = parseInt(quantityFav);
