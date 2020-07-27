@@ -561,7 +561,6 @@ header {
       }
       @media #{$__767} {
         max-width: calc(100% - 60px);
-        overflow: hidden;
       }
       @media #{$__480} {
         max-width: 100%;
